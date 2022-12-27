@@ -78,23 +78,23 @@ WSGI_APPLICATION = 'Abdallah_Project.wsgi.application'
 
 
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'abdallah92$pythonanywhere',
-        'USER': 'abdallah92',
-        'PASSWORD':'pythonanywhere',
-        'HOST' : 'abdallah92.mysql.pythonanywhere-services.com',
-        'PORT' : '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'abdallah92$pythonanywhere',
+#         'USER': 'abdallah92',
+#         'PASSWORD':'pythonanywhere',
+#         'HOST' : 'abdallah92.mysql.pythonanywhere-services.com',
+#         'PORT' : '3306',
+#     }
+# }
 
 
 
